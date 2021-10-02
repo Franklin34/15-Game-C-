@@ -1,0 +1,54 @@
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\bin\Debug\net5.0-windows\Quiz15.exe
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\bin\Debug\net5.0-windows\Quiz15.deps.json
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\bin\Debug\net5.0-windows\Quiz15.runtimeconfig.json
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\bin\Debug\net5.0-windows\Quiz15.runtimeconfig.dev.json
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\bin\Debug\net5.0-windows\Quiz15.dll
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\bin\Debug\net5.0-windows\ref\Quiz15.dll
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\bin\Debug\net5.0-windows\Quiz15.pdb
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.csproj.AssemblyReference.cache
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.Form1.resources
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.csproj.GenerateResource.cache
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.AssemblyInfoInputs.cache
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.AssemblyInfo.cs
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.csproj.CoreCompileInputs.cache
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.dll
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\ref\Quiz15.dll
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.pdb
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15\Quiz15\obj\Debug\net5.0-windows\Quiz15.genruntimeconfig.cache
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.exe
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.deps.json
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.runtimeconfig.json
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.runtimeconfig.dev.json
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.dll
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\ref\Quiz15.dll
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.pdb
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.csproj.AssemblyReference.cache
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.Form1.resources
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.csproj.GenerateResource.cache
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.AssemblyInfoInputs.cache
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.AssemblyInfo.cs
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.csproj.CoreCompileInputs.cache
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.dll
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\ref\Quiz15.dll
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.pdb
+C:\Users\estudiante\OneDrive - Universidad Nacional de Costa Rica\Pictures\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.genruntimeconfig.cache
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.exe
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.deps.json
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.runtimeconfig.json
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.runtimeconfig.dev.json
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.dll
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\ref\Quiz15.dll
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\bin\Debug\net5.0-windows\Quiz15.pdb
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.csproj.AssemblyReference.cache
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.Form1.resources
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.csproj.GenerateResource.cache
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.AssemblyInfoInputs.cache
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.AssemblyInfo.cs
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.csproj.CoreCompileInputs.cache
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.dll
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\ref\Quiz15.dll
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.pdb
+C:\Users\frank\Downloads\Quiz15-Form\Quiz15\obj\Debug\net5.0-windows\Quiz15.genruntimeconfig.cache
