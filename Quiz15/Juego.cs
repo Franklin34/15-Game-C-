@@ -14,7 +14,7 @@ namespace Quiz15
         public Juego()
         {
             jugador = new Jugador();
-            tablero = new Tablero(false);
+            tablero = new Tablero(true);
         }
 
         public Juego(string nombre)
@@ -33,29 +33,6 @@ namespace Quiz15
         {
             get { return tablero; }
             set { tablero = value; }
-        }
-
-        public void realizarMovimiento(string movimiento)
-        {
-            switch (movimiento)
-            {
-                case "A":
-                    tablero.moverIzquierda();
-                    jugador.NumMovimientos++;
-                    break;
-                case "S":
-                    tablero.moverAbajo();
-                    jugador.NumMovimientos++;
-                    break;
-                case "D":
-                    tablero.moverDerecha();
-                    jugador.NumMovimientos++;
-                    break;
-                case "W":
-                    tablero.moverArriba();
-                    jugador.NumMovimientos++;
-                    break;
-            }
         }
     }
 }

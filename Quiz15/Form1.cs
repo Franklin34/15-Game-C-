@@ -12,13 +12,16 @@ namespace Quiz15
 {
     public partial class Form1 : Form
     {
-        private Juego juego;
-        List<Button> list;
+        private Archivo archivo;
 
-        public Form1()
+        private Juego juego;
+        private List<Button> list;
+        private string nombreJugador;
+
+        public Form1(string nombre)
         {
             InitializeComponent();
-            juego = new Juego();
+            juego = new Juego(nombre);
             list = new List<Button>();
             list.Add(button1);
             list.Add(button2);
@@ -36,16 +39,22 @@ namespace Quiz15
             list.Add(button14);
             list.Add(button15);
             list.Add(button16);
+            nombreJugador = nombre;
+            archivo = new Archivo();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            label3.Text = nombreJugador;
             metodo();
-            
         }
 
-        void metodo()
+        public Archivo GetArchivo()
+        {
+            return archivo;
+        }
+
+        private void metodo()
         {
             int contador = 0;
             for (int i = 0; i < 4; i++)
@@ -76,100 +85,225 @@ namespace Quiz15
                     list[i].Visible = true;
                 }
             }
+
+            if (juego.Tablero.estadoTablero() == true)
+            {
+                MessageBox.Show("Felicidades has ganado el juego!!");
+                archivo.guardarJugador(juego.Jugador);
+                this.Close();
+                return;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button1.Text);
+            bool updateNumMov = juego.Tablero.mover(button1.Text);
             metodo();
+
+            if(updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button2.Text);
+            bool updateNumMov = juego.Tablero.mover(button2.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button3.Text);
+            bool updateNumMov = juego.Tablero.mover(button3.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button4.Text);
+            bool updateNumMov = juego.Tablero.mover(button4.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
         private void button5_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button5.Text);
+            bool updateNumMov = juego.Tablero.mover(button5.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
         private void button6_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button6.Text);
+            bool updateNumMov = juego.Tablero.mover(button6.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
         private void button7_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button7.Text);
+            bool updateNumMov = juego.Tablero.mover(button7.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
         private void button8_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button8.Text);
+            bool updateNumMov = juego.Tablero.mover(button8.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
         private void button9_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button9.Text);
+            bool updateNumMov = juego.Tablero.mover(button9.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
         private void button10_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button10.Text);
+            bool updateNumMov = juego.Tablero.mover(button10.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button11.Text);
+            bool updateNumMov = juego.Tablero.mover(button11.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
 
         }
         private void button12_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button12.Text);
+            bool updateNumMov = juego.Tablero.mover(button12.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
 
         }
         private void button13_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button13.Text);
+            bool updateNumMov = juego.Tablero.mover(button13.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
 
         }
         private void button14_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button14.Text);
+            bool updateNumMov = juego.Tablero.mover(button14.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
 
         }
         private void button15_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button15.Text);
+            bool updateNumMov = juego.Tablero.mover(button15.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
         private void button16_Click(object sender, EventArgs e)
         {
-            juego.Tablero.mover(button16.Text);
+            bool updateNumMov = juego.Tablero.mover(button16.Text);
             metodo();
+            if (updateNumMov == true)
+            {
+                int valor = int.Parse(label4.Text);
+                valor++;
+                label4.Text = valor.ToString();
+                juego.Jugador.NumMovimientos = valor;
+            }
         }
-
-
+        
         public Button retornarBoton(int i)
         {
             return list[i];
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

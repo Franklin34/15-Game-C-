@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quiz15
 {
-    class Jugador
+    public class Jugador
     {
         private string nombre;
         private int numMovimientos;
@@ -32,14 +32,11 @@ namespace Quiz15
             set { numMovimientos = value; }
         }
 
-        public void toString()
+        public override string ToString()
         {
-            Console.Write("Jugador: ");
-            Console.Write(nombre);
-            Console.Write(" | ");
-            Console.Write("Movimientos: ");
-            Console.Write(numMovimientos);
-            Console.Write("\n\n");
+            string cadena;
+            cadena = "Jugador: " + nombre + " | " + "Movimientos: " + numMovimientos + "\n\n";
+            return cadena;
         }
     }
 }

@@ -1,0 +1,9 @@
+El nombre del jugador es: Franklin
+El numero de movimientos realizados: 1 
+
+El nombre del jugador es: Franklin
+El numero de movimientos realizados: 1 
+
+El nombre del jugador es: Fabi
+El numero de movimientos realizados: 1 
+

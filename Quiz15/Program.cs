@@ -17,7 +17,12 @@ namespace Quiz15
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Form2 form2 = new Form2();
+            Application.Run(form2);
+            Form1 form1 = new Form1(form2.getNombre());
+            Application.Run(form1);
+            form1.GetArchivo().cerrarArchivo();
+
         }
     }
 }

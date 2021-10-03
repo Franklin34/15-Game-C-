@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frank\\Downloads\\Quiz15-Form\\Quiz15\\Quiz15.csproj",
+      "projectUniqueName": "C:\\Users\\frank\\OneDrive\\Imágenes\\Documents\\GitHub\\15-Game-C-\\Quiz15\\Quiz15.csproj",
       "projectName": "Quiz15",
-      "projectPath": "C:\\Users\\frank\\Downloads\\Quiz15-Form\\Quiz15\\Quiz15.csproj",
+      "projectPath": "C:\\Users\\frank\\OneDrive\\Imágenes\\Documents\\GitHub\\15-Game-C-\\Quiz15\\Quiz15.csproj",
       "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frank\\Downloads\\Quiz15-Form\\Quiz15\\obj\\",
+      "outputPath": "C:\\Users\\frank\\OneDrive\\Imágenes\\Documents\\GitHub\\15-Game-C-\\Quiz15\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
