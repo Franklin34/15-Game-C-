@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace Quiz15
 {
-    class Archivo
+    public class Archivo
     {
         private StreamWriter sw;
+        private int contador;
 
         public Archivo()
         {
@@ -22,11 +23,21 @@ namespace Quiz15
             {
                 Console.WriteLine(ex.Message);
             }
+            contador = 0;
         }
+
         public void guardarJugador(Jugador jugador)
         {
-            sw.Write("El nombre del jugador es: " + jugador.Nombre + "\n");
-            sw.Write("El numero de movimientos realizados: " + jugador.NumMovimientos + " \n\n");
+            if (contador == 0)
+            {
+                sw.Write("El nombre del jugador es: " + jugador.Nombre + "\n");
+                sw.Write("El numero de movimientos realizados: " + jugador.NumMovimientos + " \n\n");
+                contador++;
+            }
+        }
+
+        public void cerrarArchivo()
+        {
             sw.Close();
         }
     }

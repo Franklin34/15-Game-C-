@@ -84,7 +84,7 @@ namespace Quiz15
             }
             return false;
         }
-
+        
         public bool estadoTablero()
         {
             int contador = 1;
@@ -120,13 +120,13 @@ namespace Quiz15
             return true;
         }
 
-        private bool validarMovIzquierda()
+        private bool validarMovIzquierda(int jugador)
         {
             for (int i = 0; i < filas; i++)
             {
                 for (int j = 0; j < columnas; j++)
                 {
-                    if (tablero[i, j] == JUGADOR)
+                    if (tablero[i, j] == jugador)
                     {
                         if (j == 0)
                         {
@@ -138,13 +138,13 @@ namespace Quiz15
             return true;
         }
 
-        private bool validarMovAbajo()
+        private bool validarMovAbajo(int jugador)
         {
             for (int i = 0; i < filas; i++)
             {
                 for (int j = 0; j < columnas; j++)
                 {
-                    if (tablero[i, j] == JUGADOR)
+                    if (tablero[i, j] == jugador)
                     {
                         if (i == filas - 1)
                         {
@@ -156,13 +156,13 @@ namespace Quiz15
             return true;
         }
 
-        private bool validarMovArriba()
+        private bool validarMovArriba(int jugador)
         {
             for (int i = 0; i < filas; i++)
             {
                 for (int j = 0; j < columnas; j++)
                 {
-                    if (tablero[i, j] == JUGADOR)
+                    if (tablero[i, j] == jugador)
                     {
                         if (i == 0)
                         {
@@ -174,106 +174,7 @@ namespace Quiz15
             return true;
         }
 
-        public int[] retornarMovimientosPos()
-        {
-            int[] movimientos = new int[4];
-            /*for (int i = 0; i < 4; i++)
-            {
-                movimientos[i] = 0;
-            }
-            if (validarMovDerecha() == true)
-            {
-                movimientos[0] = 1;
-            }
-            if (validarMovIzquierda() == true)
-            {
-                movimientos[1] = 2;
-            }
-            if (validarMovAbajo() == true)
-            {
-                movimientos[2] = 3;
-            }
-            if (validarMovArriba() == true)
-            {
-                movimientos[3] = 4;
-            }*/
-            return movimientos;
-        }
-
-
-        public void moverDerecha()
-        {
-            int valor = 0;
-            for (int i = 0; i < filas; i++)
-            {
-                for (int j = 0; j < columnas; j++)
-                {
-                    if (tablero[i, j] == JUGADOR)
-                    {
-                        valor = tablero[i, j + 1];
-                        tablero[i, j] = valor;
-                        tablero[i, j + 1] = JUGADOR;
-                        return;
-                    }
-                }
-            }
-        }
-
-        public void moverIzquierda()
-        {
-            int valor = 0;
-            for (int i = 0; i < filas; i++)
-            {
-                for (int j = 0; j < columnas; j++)
-                {
-                    if (tablero[i, j] == JUGADOR)
-                    {
-                        valor = tablero[i, j - 1];
-                        tablero[i, j] = valor;
-                        tablero[i, j - 1] = JUGADOR;
-                        return;
-                    }
-                }
-            }
-        }
-
-        public void moverArriba()
-        {
-            int valor = 0;
-            for (int i = 0; i < filas; i++)
-            {
-                for (int j = 0; j < columnas; j++)
-                {
-                    if (tablero[i, j] == JUGADOR)
-                    {
-                        valor = tablero[i - 1, j];
-                        tablero[i, j] = valor;
-                        tablero[i - 1, j] = JUGADOR;
-                        return;
-                    }
-                }
-            }
-        }
-
-        public void moverAbajo()
-        {
-            int valor = 0;
-            for (int i = 0; i < filas; i++)
-            {
-                for (int j = 0; j < columnas; j++)
-                {
-                    if (tablero[i, j] == JUGADOR)
-                    {
-                        valor = tablero[i + 1, j];
-                        tablero[i, j] = valor;
-                        tablero[i + 1, j] = JUGADOR;
-                        return;
-                    }
-                }
-            }
-        }
-
-        public void mover(string numero)
+        public bool mover(string numero)
         {
             int valor = int.Parse(numero);
 
@@ -289,12 +190,67 @@ namespace Quiz15
                             {
                                 tablero[i, j] = JUGADOR;
                                 tablero[i, j+1] = valor;
-                                return;
+                                return true;
                             }
                         }
                     }
                 }
             }
+            if (validarMovIzquierda(valor) == true)
+            {
+                for (int i = 0; i < filas; i++)
+                {
+                    for (int j = 0; j < columnas; j++)
+                    {
+                        if (tablero[i, j] == valor)
+                        {
+                            if (tablero[i, j - 1] == JUGADOR)
+                            {
+                                tablero[i, j] = JUGADOR;
+                                tablero[i, j - 1] = valor;
+                                return true;
+                            }
+                        }
+                    }
+                }
+            }
+            if (validarMovArriba(valor) == true)
+            {
+                for (int i = 0; i < filas; i++)
+                {
+                    for (int j = 0; j < columnas; j++)
+                    {
+                        if (tablero[i, j] == valor)
+                        {
+                            if (tablero[i - 1, j] == JUGADOR)
+                            {
+                                tablero[i, j] = JUGADOR;
+                                tablero[i - 1, j] = valor;
+                                return true;
+                            }
+                        }
+                    }
+                }
+            }
+            if (validarMovAbajo(valor) == true)
+            {
+                for (int i = 0; i < filas; i++)
+                {
+                    for (int j = 0; j < columnas; j++)
+                    {
+                        if (tablero[i, j] == valor)
+                        {
+                            if (tablero[i + 1, j] == JUGADOR)
+                            {
+                                tablero[i, j] = JUGADOR;
+                                tablero[i + 1, j] = valor;
+                                return true;
+                            }
+                        }
+                    }
+                }
+            }
+            return false;
         }
 
         public int Filas
@@ -313,27 +269,28 @@ namespace Quiz15
             return tablero[i, y];
         }
 
-        public void toString()
+        public override string ToString()
         {
+            string cadena = "";
             for (int i = 0; i < filas; i++)
             {
                 for (int j = 0; j < columnas; j++)
                 {
-                    Console.Write("\t");
-                    Console.Write("[ ");
+                    cadena = "\t" + "[ ";
                     if (tablero[i, j] == 16)
                     {
-                        Console.Write("");
+                        cadena += "";
                     }
                     else
                     {
-                        Console.Write(tablero[i, j]);
+                        cadena += tablero[i, j];
                     }
-                    Console.Write(" ]");
+                    cadena +=  " ]";
                 }
-                Console.Write("\n");
+                cadena +=  "\n";
             }
-            Console.Write("\n");
+            cadena += "\n";
+            return cadena;
         }
     }
 }
